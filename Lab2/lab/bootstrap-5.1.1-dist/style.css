@@ -1,0 +1,36 @@
+.footer {
+  margin-top: 30px;
+  padding-bottom: 0px;
+  border-bottom: 0px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.footer p {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  border-bottom: 0px;
+}
+.main {
+  overflow: hidden;
+  background-image: url(background.jpg);
+  overflow: auto;
+}
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.jumbostyle {
+  background-color: rgb(128, 0, 0);
+  margin-bottom: 20px;
+  height: 15em;
+  color: white;
+}
+.text {
+  text-align: center;
+  margin-top: 10;
+}

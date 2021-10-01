@@ -1,0 +1,151 @@
+<!-- Read Me
+I have added CSS animations, you may miss them at first.
+To view animations please refresh the html page in the browser.-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel ="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <title>NavBar</title>
+
+  </head>
+
+  <body>
+      <div class="main">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#"> Ontario Tech University</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>  
+                </button> 
+
+                <div class="navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active animate__animated  animate__headShake" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link animate__animated  animate__headShake" href="#">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" 
+                            data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Country<b class="caret"></b></a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li class="dropdown-item">Canada</li>
+                                <li class="dropdown-item"><a href="#">Toronto</a></li>
+                                <li class="dropdown-item"><a href="#">Montreal</a></li>
+                                <li class="dropdown-item"><a href="#">Vancouver</a></li>
+                                <li class="dropdown-divider"></li>
+                                <li class="dropdown-item">USA</li>
+                                <li class="dropdown-item"><a href="#">New York</a></li>
+                                <li class="dropdown-item"><a href="#">Las Vegas</a></li>
+                                <li class="dropdown-divider"></li>
+                                <li class="dropdown-item">Pakistan</li>
+                                <li class="dropdown-item"><a href="#">Karachi</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#contact" data-toggle="modal">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container jumbostyle animate__animated animate__tada">
+                <div class="jumbotron text-center">
+                    <h1><br><br>Ontario Tech Trips</h1>
+                    <p>Start your Journey Here</p>
+                </div>
+            </div>
+            
+            <div class="container text">
+                <div class="row align-items-start">
+                <div class="col-sm-4">
+                    <h3>Toronto</h3>
+                    <a href-"#">
+                        <img src="images/toronto.jpg" class="img-thumbnail img animate__animated animate__backInLeft" width="auto" height="500">
+                    </a>
+                    <p><br>Toronto is one of Canada's leading tourist destinations. In 2009, Toronto region recieved 9.62 million overnight visitors, of which 6.42
+                        million were domestic visitors and 1.99 million were from the United States. toronto has an array of tourist
+                        attractions, and a rich cultural life.
+                    </p>
+                    <a href="#" class="btn btn-danger animate__animated animate__bounce">View</a>
+                </div>
+                <div class="col-sm-4">
+                    <h3>Montreal</h3>
+                    <a href-"#">
+                        <img src="images/montreal.jpg" class="img-thumbnail img animate__animated animate__backInLeft" width="auto" height="500">
+                    </a>
+                    <p><br>Montréal is the largest city in Canada's Québec province. It’s set on an island in the Saint Lawrence River and named after Mt. Royal, 
+                        the triple-peaked hill at its heart. Its boroughs, many of which were once independent cities, include neighbourhoods ranging from cobblestoned, 
+                        French colonial Vieux-Montréal – with the Gothic Revival Notre-Dame Basilica at its centre – to bohemian Plateau..
+                    </p>
+                    <a href="#" class="btn btn-danger animate__animated animate__bounce">View</a>
+                </div>
+                <div class="col-sm-4">
+                    <h3>New York</h3>
+                    <a href-"#">
+                        <img src="images/newyork.jpg" class="img-thumbnail img animate__animated animate__backInLeft" width="auto" height="500">
+                    </a>
+                    <p><br>New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At its core is Manhattan, a densely populated borough 
+                        that’s among the world’s major commercial, financial and cultural centers. Its iconic sites include skyscrapers such as the Empire State Building 
+                        and sprawling Central Park. 
+                    </p> 
+                    <a href="#" class="btn btn-danger animate__animated animate__bounce">View</a>
+                </div>
+                <div class="col-sm-4">
+                    <h3>Las Vegas</h3>
+                    <a href-"#">
+                        <img src="images/lasvegas.jpg" class="img-thumbnail img animate__animated animate__backInLeft" width="auto" height="500">
+                    </a>
+                    <p><br>Las Vegas, often known simply as Vegas, is the 26th-most populous city in the United States, the most populous city in the state of Nevada, and the 
+                        county seat of Clark County. The city anchors the Las Vegas Valley metropolitan area and is the largest city within the greater Mojave Desert.
+                    </p>
+                    <a href="#" class="btn btn-danger animate__animated animate__tada">View</a>
+                </div>
+                <div class="col-sm-4">
+                    <h3>Vancouver</h3>
+                    <a href-"#">
+                        <img src="images/vancouver.jpg" class="img-thumbnail img animate__animated animate__backInLeft " width="auto" height="500">
+                    </a>
+                    <p><br>Vancouver, a bustling west coast seaport in British Columbia, is among Canada’s densest, most ethnically diverse cities. A popular filming location, 
+                        it’s surrounded by mountains, and also has thriving art, theatre and music scenes. Vancouver Art Gallery is known for its works by regional artists,
+                         while the Museum of Anthropology houses preeminent First Nations collections. 
+                    </p>
+                    <a href="#" class="btn btn-danger animate__animated animate__tada">View</a>
+                </div>
+                <div class="col-sm-4">
+                    <h3>Karachi</h3>
+                    <a href-"#">
+                        <img src="images/karachi.jpg" class="img-thumbnail img animate__animated animate__backInLeft" width="auto" height="500">
+                    </a>
+                    <p><br>Karachi is the largest city in Pakistan and the twelfth-largest city in the world. It is the capital of the Pakistani province of Sindh. Ranked as a 
+                        beta-global city, it is Pakistan's premier industrial and financial centre, with an estimated GDP of $164 billion as of 2019.
+                    </p>
+                    <a href="#" class="btn btn-danger animate__animated animate__tada">View</a>
+                </div>
+                </div>
+            </div>
+        
+        <footer class="footer">
+            <p>OTU</p>
+        </footer>
+        </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
