@@ -1,0 +1,40 @@
+.main {
+  background-color: white;
+  margin: auto;
+  width: 50%;
+  border: 10px solid rgb(226, 158, 112);
+  padding: 10 px;
+  box-shadow: 5px 10px #888888;
+}
+
+.star-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+}
+
+li img {
+  justify-content: center;
+  text-align: center;
+  padding: 25 px;
+  text-decoration: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.intro {
+  text-align: center;
+}
+.break1 {
+  background-color: rgb(226, 158, 112);
+  padding: 0 px;
+  margin: 0 px;
+}
+.break1 h1 {
+  text-align: center;
+  color: white;
+}
