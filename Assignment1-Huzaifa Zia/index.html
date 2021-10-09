@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+
+<!-- Read Me
+I have added CSS animations, you may miss them at first.
+To view animations please refresh the html page in the browser.-->
+
 <html lang="en">
   <head>
     <meta charset="UTF-8">
@@ -6,11 +11,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Restaurant Survey</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> 
   </head>
 
   <body style="background-color:rgb(235, 233, 233)">
-    <div class="main">
+    <div class="main animate__animated animate__jackInTheBox">
         <div class="star-img">
             <ul class="star-list animate__animated animate__flash">
                 <li><img src="star.png" alt="star image" width="10 %" height="auto"></li>
@@ -21,31 +26,96 @@
             </ul>
         </div>
         <div class="intro">
-            <h1>We Appreciate You Dining With us Today</h1>
-            <h2>Our Goal is to always imporve our dining services</h2>
-            <h3>Please fill out our survey for a chance to win $1000</h3>
+            <h1 class="animate__animated animate__flipInX">We Appreciate You Dining With us Today</h1>
+            <h2 class="animate__animated animate__flipInX">Our Goal is to always imporve our dining services</h2>
+            <h3 class="animate__animated animate__flipInX">Please fill out our survey for a chance to win $1000</h3>
         </div>
         <div class="break1">
-            <h1>Costomer Survey</h1>
+            <h1 class="animate__animated animate__bounceInDown">Costomer Survey</h1>
         </div>
-        <form method="get" action="#">
-            <label><h3>1. How was the Food?</h3> <br></label>
+            <form method="get" action="#">
+                <div class="form">
+                    <label ><h3 class="animate__animated animate__bounceInDown">1. How was the Food?</h3> <br></label>
 
-            <input type="radio" id="html" name="fav_language" value="HTML">
-            <label for="html">HTML</label><br>
-            <input type="radio" id="css" name="fav_language" value="CSS">
-            <label for="css">CSS</label><br>
-            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-            <label for="javascript">JavaScript</label>
+                    <input type="radio"  name="option" value="Superb" required>
+                    <label for="Superb">Superb</label> 
+                    <input type="radio" name="option" value="Great">
+                    <label for="Great">Great</label>
+                    <input type="radio" name="option" value="Average">
+                    <label for="Average">Average</label>
+                    <input type="radio" name="option" value="Not so great">
+                    <label for="Not so great">Not so great</label>
+                    <input type="radio" name="option" value="Horrible">
+                    <label for="Horrible">Horrible</label>
+                    <input type="radio" name="option" value="dnwa">
+                    <label for="dnwa">Do not Wish to Answer</label>
 
-            <label><h3>2. How was the menu variety?</h3><br></label>
+                    <label><h3 class="animate__animated animate__bounceInDown">2. How was the menu variety?</h3><br></label>
 
-            <label><h3>3. How was the Service?</h3><br></label>
+                    <input type="radio"  name="option1" value="Superb" required>
+                    <label for="Superb">Superb</label> 
+                    <input type="radio" name="option1" value="Great">
+                    <label for="Great">Great</label>
+                    <input type="radio" name="option1" value="Average">
+                    <label for="Average">Average</label>
+                    <input type="radio" name="option1" value="Not so great">
+                    <label for="Not so great">Not so great</label>
+                    <input type="radio" name="option1" value="Horrible">
+                    <label for="Horrible">Horrible</label>
+                    <input type="radio" name="option1" value="dnwa">
+                    <label for="dnwa">Do not Wish to Answer</label>
 
-            <label><h3>4. How was the atmosphere?</h3><br></label>
+                    <label><h3 class="animate__animated animate__bounceInDown">3. How was the Service?</h3><br></label>
 
-            <label><h3>5. Please feel free to write any additional comments</h3><br></label>
-        </form>
+                    <input type="radio"  name="option2" value="Superb" required>
+                    <label for="Superb">Superb</label> 
+                    <input type="radio" name="option2" value="Great">
+                    <label for="Great">Great</label>
+                    <input type="radio" name="option2" value="Average">
+                    <label for="Average">Average</label>
+                    <input type="radio" name="option2" value="Not so great">
+                    <label for="Not so great">Not so great</label>
+                    <input type="radio" name="option2" value="Horrible">
+                    <label for="Horrible">Horrible</label>
+                    <input type="radio" name="option2" value="dnwa">
+                    <label for="dnwa">Do not Wish to Answer</label>
+
+                    <label><h3 class="animate__animated animate__bounceInDown">4. How was the atmosphere?</h3><br></label>
+
+                    <input type="radio"  name="option3" value="Superb" required>
+                    <label for="Superb">Superb</label> 
+                    <input type="radio" name="option3" value="Great">
+                    <label for="Great">Great</label>
+                    <input type="radio" name="option3" value="Average">
+                    <label for="Average">Average</label>
+                    <input type="radio" name="option3" value="Not so great">
+                    <label for="Not so great">Not so great</label>
+                    <input type="radio" name="option3" value="Horrible">
+                    <label for="Horrible">Horrible</label>
+                    <input type="radio" name="option3" value="dnwa">
+                    <label for="dnwa">Do not Wish to Answer</label>
+                </div>
+            
+        
+                <div class="break1">
+                    <h1 class="animate__animated animate__bounceInDown">Your Information</h1>
+                </div>
+                <div class="form2">
+
+                    <label for="Superb">Name: </label> 
+                    <input type="text"  name="name" required>
+                    <label for="date">Date: </label>
+                    <input type="date" name="date" required><br><br>
+                    <label for="phone">Phone: </label>
+                    <input type="tel" name="phone" required>
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" required>
+                    
+                </div>
+                <div class="submit-form">
+                    <input type="submit" style="width: 100px; height:50px; background-color: rgb(100, 145, 211); color: white; margin-bottom: 10px;">
+                </div>
+            </form>
     </div>
   </body>
 

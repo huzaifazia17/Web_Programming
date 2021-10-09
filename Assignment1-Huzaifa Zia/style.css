@@ -1,10 +1,10 @@
 .main {
   background-color: white;
   margin: auto;
-  width: 50%;
-  border: 10px solid rgb(226, 158, 112);
+  width: 40%;
+  border: 10px solid rgb(100, 145, 211);
   padding: 10 px;
-  box-shadow: 5px 10px #888888;
+  box-shadow: 12px 10px #c8c5c5;
 }
 
 .star-list {
@@ -18,23 +18,36 @@
 li img {
   justify-content: center;
   text-align: center;
-  padding: 25 px;
   text-decoration: none;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 40%;
 }
 
 .intro {
   text-align: center;
 }
 .break1 {
-  background-color: rgb(226, 158, 112);
-  padding: 0 px;
-  margin: 0 px;
+  background-color: rgb(100, 145, 211);
+  padding: 0.3px;
 }
 .break1 h1 {
   text-align: center;
   color: white;
+}
+form input {
+  text-align: center;
+}
+.form {
+  padding: 20px;
+}
+.form2 {
+  padding: 20px;
+}
+.form2 label {
+  padding: 40px;
+}
+.submit-form {
+  text-align: center;
 }
