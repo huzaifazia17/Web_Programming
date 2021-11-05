@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+    <h1>Employees Information</h1>
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>Age</td>
+            <td>Gender</td>
+        </tr>
+    </table>
+    <div id="info">
+        
+    </div>
+    <script type="text/javascript">
+        var xmlhttp= new XMLHttpRequest();
+        xmlhttp.open('GET', 'employees.json', true);
+        xmlhttp.send();
+
+        xmlhttp.onreadystatechange=function(){
+            if(xmlhttp.readyState==4 && xmlhttp.status==200){
+                console.log("Working");
+                print_json(xmlhttp.responseText);
+            }
+        };
+        function print_json(response){
+            var data_arr = JSON.parse(response);
+            var data = "";
+            for(var i = 0; i < data_arr.length; i++){
+                data += data_arr[i].name + " "+ 
+                data_arr[i].age + " "+ data_arr[i].gender +'<br>';
+            }
+            document.getElementById("info").innerHTML = data;
+        }
+    </script>
+</body>
+</html>
