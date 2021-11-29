@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<!-- Read Me
+I have added CSS animations, you may miss them at first.
+To view animations please refresh the html page in the browser.
+Also for the database, I changed teh name of user-ID from ratinginfo to user_ID so 
+if you are testing make sure to do the same inside the restaurantrating db.
+Lastly, my database is called resturantrating. i spelled restaurant wrong so keep that in mind-->
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Restaurant Survey</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body style="background-color:rgb(235, 233, 233)">
+    <div class="main animate__animated animate__jackInTheBox">
+        <div class="star-img">
+            <ul class="star-list animate__animated animate__flash">
+                <li><img src="star.png" alt="star image" width="10 %" height="auto"></li>
+                <li><img src="star.png" alt="star image" width="10 %" height="auto"></li>
+                <li><img src="star.png" alt="star image" width="10 %" height="auto"></li>
+                <li><img src="star.png" alt="star image" width="10 %" height="auto"></li>
+                <li><img src="star.png" alt="star image" width="10 %" height="auto"></li>
+            </ul>
+        </div>
+        <div class="intro">
+            <h1 class="animate__animated animate__flipInX">We Appreciate You Dining With us Today</h1>
+            <h2 class="animate__animated animate__flipInX">Our Goal is to always imporve our dining services</h2>
+            <h3 class="animate__animated animate__flipInX">Please fill out our survey for a chance to win $1000</h3>
+        </div>
+        <div class="break1">
+            <h1 class="animate__animated animate__bounceInDown">Costomer Survey</h1>
+        </div>
+        <form method="Post" action="action1.php">
+            <div class="form">
+                <label>
+                    <h3 class="animate__animated animate__bounceInDown">1. How was the Food?</h3> <br>
+                </label>
+
+                <input type="radio" name="option" value="5" required>
+                <label for="Superb">5</label>
+                <input type="radio" name="option" value="4">
+                <label for="Great">4</label>
+                <input type="radio" name="option" value="3">
+                <label for="Average">3</label>
+                <input type="radio" name="option" value="2">
+                <label for="Not so great">2</label>
+                <input type="radio" name="option" value="1">
+                <label for="Horrible">1</label>
+
+                <label>
+                    <h3 class="animate__animated animate__bounceInDown">2. How was the menu variety?</h3><br>
+                </label>
+
+                <input type="radio" name="option1" value="5" required>
+                <label for="Superb">5</label>
+                <input type="radio" name="option1" value="4">
+                <label for="Great">4</label>
+                <input type="radio" name="option1" value="3">
+                <label for="Average">3</label>
+                <input type="radio" name="option1" value="2">
+                <label for="Not so great">2</label>
+                <input type="radio" name="option1" value="1">
+                <label for="Horrible">1</label>
+
+                <label>
+                    <h3 class="animate__animated animate__bounceInDown">3. How was the Service?</h3><br>
+                </label>
+
+                <input type="radio" name="option2" value="5" required>
+                <label for="Superb">5</label>
+                <input type="radio" name="option2" value="4">
+                <label for="Great">4</label>
+                <input type="radio" name="option2" value="3">
+                <label for="Average">3</label>
+                <input type="radio" name="option2" value="2">
+                <label for="Not so great">2</label>
+                <input type="radio" name="option2" value="1">
+                <label for="Horrible">1</label>
+
+                <label>
+                    <h3 class="animate__animated animate__bounceInDown">4. How was the atmosphere?</h3><br>
+                </label>
+
+                <input type="radio" name="option3" value="5" required>
+                <label for="Superb">5</label>
+                <input type="radio" name="option3" value="4">
+                <label for="Great">4</label>
+                <input type="radio" name="option3" value="3">
+                <label for="Average">3</label>
+                <input type="radio" name="option3" value="2">
+                <label for="Not so great">2</label>
+                <input type="radio" name="option3" value="1">
+                <label for="Horrible">1</label>
+
+                <label>
+                    <h3 class="animate__animated animate__bounceInDown">Please type any remarks or comments</h3>
+                </label>
+                <input type="text" name="remarks" placeholder="Write a message">
+
+            </div>
+
+
+            <div class="break1">
+                <h1 class="animate__animated animate__bounceInDown">Your Information</h1>
+            </div>
+            <div class="form2">
+
+                <label for="Superb">First Name: </label>
+                <input type="text" name="fname" required>
+                <label for="Superb">Last Name: </label>
+                <input type="text" name="lname" required>
+                <label for="date">Date: </label>
+                <input type="date" name="date" required><br><br>
+                <label for="phone">Phone: </label>
+                <input type="tel" name="phone" required>
+                <label for="email">Email: </label>
+                <input type="email" name="email" required>
+
+            </div>
+            <div class="submit-form">
+                <input type="submit"
+                    style="width: 100px; height:50px; background-color: rgb(100, 145, 211); color: white; margin-bottom: 10px;">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
